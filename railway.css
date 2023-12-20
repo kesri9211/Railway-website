@@ -1,0 +1,266 @@
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: #d9d9d9;
+    margin-top: -14px;
+}
+
+.navbar img {
+    height: 45px;
+    width: 90px;
+}
+
+.navbar ul :hover {
+    color: rgb(45, 101, 241);
+}
+
+.navbar a {
+
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-1image img {
+    image-rendering: pixelated;
+    margin-top: -15px;
+    height: 700px;
+    width: 100%;
+}
+
+.book-ticket {
+
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    font-size: 16px;
+
+    color: rgb(18, 16, 16);
+}
+
+.book-ticket input,
+button,
+select {
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 5px;
+    /* width: 12px; */
+}
+
+.book-ticket input:hover {
+    border: none;
+
+    box-shadow: 4px 4px 4px 4px rgb(41, 126, 206);
+}
+
+.book-ticket button:hover {
+    border: none;
+
+    box-shadow: 2px 2px 2px 2px rgb(206, 162, 41);
+}
+
+.book-ticket form {
+    margin-top: -12px;
+    padding: 15px;
+    border: 6px solid rgb(0, 0, 0);
+    width: 300px;
+    border-radius: 20%;
+    background-color: whitesmoke;
+}
+
+#image-book {
+    display: flex;
+}
+
+.pnr img {
+    image-rendering: pixelated;
+    margin-top: -15px;
+    height: 800px;
+    width: 100%;
+
+}
+
+.pnr-checker {
+    background-color: whitesmoke;
+    border: 4px solid black;
+    width: 555px;
+    padding-right: 8px;
+    padding-left: 25px;
+    border-radius: 45px;
+    margin-left: 400px;
+    padding: 22px;
+}
+
+.pnr-checker button {
+    font-size: large;
+    padding-left: 80px;
+    padding: 6px;
+    background-color: coral;
+    color: white;
+    margin-left: 240px;
+
+}
+
+.pnr-checker input {
+    width: 500px;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.pnr-checker {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    font-size: 16px;
+
+
+}
+
+.pnr-h1 {
+
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    font-size: 43px;
+    color: white;
+    background-color: black;
+
+}
+
+.meal-input input {
+    margin-top: 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* margin-left: 300px; */
+    text-align: center;
+    font-size: larger;
+    width: 800px;
+    min-width: 200px;
+}
+
+.meal {
+    margin-top: 10px;
+    margin-left: 350px;
+    padding: 12px;
+    border: 2px solid black;
+    display: flex;
+    width: 800px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.6s;
+}
+
+.meal:hover {
+    transform: translatey(-12px);
+    background-color: #fbd09c;
+}
+
+.holiday {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+
+
+}
+
+.holiday div {
+    margin: 8px;
+    border-radius: 9px;
+    transition: 0.6s;
+    padding: 5px;
+}
+
+.holiday div img {
+    border: 1.5px solid black;
+}
+
+.holiday div:hover {
+    transform: translatey(-12px);
+    background-color: #c1d3fe;
+}
+
+.holiday div button {
+    background-color: #ffd60a;
+    padding: 4px;
+}
+
+.holiday div p,
+ul {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.container-contact {
+
+    font-size: larger;
+    padding: 9px;
+    text-align: center;
+
+}
+
+.container-contact>input,
+textarea {
+    border: none;
+
+    padding: 5px;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    width: 580px;
+}
+
+.container-contact>input {
+    padding-left: 72px;
+    font-size: 15px;
+    height: 52px;
+    width: 500px;
+}
+
+.container-contact button {
+    color: white;
+    background-color: #4772d6;
+    padding: 12px;
+    border: none;
+    font-size: larger;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.container-contact button:hover {
+    font-size: 35px;
+}
+
+.container-service {
+    text-align: center;
+    border: 5px solid rgb(248, 247, 247);
+    border-radius: 22px;
+    width: 700px;
+    padding: 23px;
+    margin-left: 400px;
+
+}
+
+.container-service input {
+    font-size: 14px;
+    width: 600px;
+    height: 35px;
+    border-radius: 12px;
+    border: none;
+}
+
+.container-service button {
+    padding: 6px;
+    width: 100px;
+    background-color: rgb(4, 4, 55);
+    color: white;
+}
